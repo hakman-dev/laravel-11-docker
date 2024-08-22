@@ -1,3 +1,8 @@
+This is base laravel 11 integrated into docker.
+Just copy .env.example, fill in details, run docker-compose.yml and it should be set up.
+This will setup a laravel nginx container, mysql container and a mailhog container.
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
