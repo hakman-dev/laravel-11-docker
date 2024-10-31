@@ -49,5 +49,8 @@ COPY default.conf /etc/nginx/conf.d/
 
 EXPOSE 8080
 
+COPY wait-for-mysql.sh /wait-for-mysql.sh
+RUN chmod +x /wait-for-mysql.sh
+
 # Run startup script
 CMD ["dumb-init", "/bin/sh", "/docker-entrypoint.sh"]
